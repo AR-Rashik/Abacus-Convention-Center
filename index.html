@@ -24,9 +24,9 @@
   </head>
   <body>
     <!-- Header Strat -->
-    <header class="mb-5">
+    <header class="">
       <!-- Navbar Start -->
-      <nav class="navbar navbar-expand-lg bg-light p-4">
+      <nav class="navbar navbar-expand-lg bg-light p-4 fixed-top">
         <div class="container">
           <a class="navbar-brand fw-bold fs-4" href="#"
             >Abacus Convention Center</a
@@ -45,16 +45,19 @@
           <div class="collapse navbar-collapse" id="navbarNav">
             <ul class="navbar-nav ms-auto fs-6">
               <li class="nav-item mx-2">
-                <a class="nav-link active" aria-current="page" href="#">Home</a>
+                <a class="nav-link active" aria-current="page" href="#banner">Home</a>
               </li>
               <li class="nav-item mx-2">
-                <a class="nav-link" href="#">About Us</a>
+                <a class="nav-link" href="#moments">Moments</a>
               </li>
               <li class="nav-item mx-2">
-                <a class="nav-link" href="#">Contact</a>
+                <a class="nav-link" href="#package">Packages</a>
               </li>
               <li class="nav-item mx-2">
-                <a class="nav-link" href="#">Subscribe</a>
+                <a class="nav-link" href="#client">Clients</a>
+              </li>
+              <li class="nav-item mx-2">
+                <a class="nav-link" href="#faq">F&Q</a>
               </li>
             </ul>
           </div>
@@ -63,7 +66,8 @@
       <!-- Navbar End -->
 
       <!-- Banner Start -->
-      <div
+      <section class="banner" id="banner">
+        <div
         id="carouselExampleCaptions"
         class="carousel slide"
         data-bs-ride="false"
@@ -174,14 +178,15 @@
           <span class="visually-hidden">Next</span>
         </button>
       </div>
+    </section>
       <!-- Banner End-->
     </header>
     <!-- Header End -->
 
     <!-- Main Section Start -->
-    <main class="container mt-5">
+    <main class="container">
       <!-- Moments Section Start-->
-      <section class="moments mb-5">
+      <section class="moments" id="moments">
         <div class="row d-flex flex-lg-row flex-column-reverse">
           <div class="col-lg-6 col-md-12">
             <img
@@ -247,7 +252,7 @@
       <!-- Moments Section End-->
 
       <!-- Packages Section Start -->
-      <section class="package mb-5">
+      <section class="package" id="package">
         <h2 class="text-center fs-1 fw-bold text-dark">Our Package</h2>
         <div class="row position-relative">
           <div class="col-12 col-md-6 col-lg-3 pb-4">
@@ -398,7 +403,7 @@
       <!-- Packages Section End -->
 
       <!-- Clients Section Start -->
-      <section class="my-5">
+      <section class="client" id="client">
         <div>
           <h2 class="fs-1 fw-bold text-dark text-center mb-5">Happy Clients says</h2>
           <div class="row gx-3">
@@ -441,7 +446,7 @@
       <!-- Clients Section End -->
 
       <!-- FAQ Section Start -->
-      <section class="my-5">
+      <section class="faq" id="faq">
         <div>
           	<h2 class="fs-1 fw-bold text-dark text-center my-5">Frequently Asked Questions</h2>
             <div class="row">
